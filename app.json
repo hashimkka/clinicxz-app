@@ -1,36 +1,42 @@
 {
-    "expo": {
-        "name": "ClinicXZ",
-        "slug": "clinicxz-app",
-        "version": "1.0.0",
-        "orientation": "default",
-        "icon": "./assets/icon.png",
-        "userInterfaceStyle": "dark",
-        "splash": {
-            "image": "./assets/splash-icon.png",
-            "resizeMode": "contain",
-            "backgroundColor": "#0f172a"
-        },
-        "assetBundlePatterns": [
-            "**/*"
-        ],
-        "ios": {
-            "supportsTablet": true,
-            "bundleIdentifier": "com.clinicxz.app"
-        },
-        "android": {
-            "adaptiveIcon": {
-                "foregroundImage": "./assets/adaptive-icon.png",
-                "backgroundColor": "#0f172a"
-            },
-            "package": "com.clinicxz.app"
-        },
-        "plugins": [
-            "expo-router"
-        ],
-        "scheme": "clinicxz",
-        "experiments": {
-            "typedRoutes": true
-        }
+  "expo": {
+    "name": "ClinicXZ",
+    "slug": "clinicxz-app",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0f172a"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.clinicxz.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0f172a"
+      },
+      "package": "com.clinicxz.app"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "clinicxz",
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "acebec87-7f9d-4bba-bb92-d3fc01afcb2c"
+      }
     }
+  }
 }
